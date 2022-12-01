@@ -99,4 +99,7 @@
     .footer-buy button{
         width: 250px;
     }
+    .section2{
+        column-gap: 20px;
+    }
 }

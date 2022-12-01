@@ -539,6 +539,8 @@ margin-right: 18px;
 
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .description-texte{
 
@@ -552,9 +554,9 @@ margin-right: 18px;
     border-radius: 3px;
 }
 .description-title{
-    font-size: 19px;
+    font-size: 25px;
     border-bottom: 1px solid black;
-    width: 238px;
+    width: 240px;
     margin: 25px 0 25px 20px;
 }
 .description-gauche,
@@ -568,7 +570,8 @@ margin-right: 18px;
 .tableau{
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .section5 h1{
 
