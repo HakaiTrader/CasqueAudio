@@ -134,18 +134,17 @@ section .container{
     column-gap: 10px;
     justify-content: center;
     width: 350px;
-    margin-top: 50px;
 }
-.casque1{
+.Casque1{
     background-image: url(/Images/Casque1.png);
 }
 
-.casque2{
+.Casque2{
     background-image: url(/Images/Casque2.png);
     
 }
-.casque1,
-.casque2{
+.Casque1,
+.Casque2{
     height: 82px;
     width: 71px;
     background-size: contain;
@@ -154,8 +153,8 @@ section .container{
     cursor: pointer;
     transform: translateX(-40%);
 }
-.casque1:hover,
-.casque2:hover{
+.Casque1:hover,
+.Casque2:hover{
     
     box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.274);
     scale: 1.05;
@@ -939,10 +938,15 @@ i.fa-solid.fa-truck-fast::before{
 }
 .prix-footer p span:nth-child(1){
 
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     border-radius: 3px;
     padding: 2px;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.prix-footer p span:nth-child(2){
+
+    background-color: yellow;
+    border-radius: 3px;
 }
 .intersection-footer{
 
