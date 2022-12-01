@@ -29,4 +29,20 @@
     .casque2{
         transform: translate(0);
     }
+    .info-logos{
+
+        flex-wrap: wrap;
+    }
+    .assurance-offre{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offre-partenaire{
+
+        margin-top: 35px;
+    }.footer-buy{
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 10px;
+    }
 }

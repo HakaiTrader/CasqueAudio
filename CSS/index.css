@@ -918,7 +918,7 @@ i.fa-solid.fa-truck-fast::before{
     height: 80px;
     box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.281);
     transition: 1s ease;
-    transform: translate(0,80px);
+    transform: translate(0,100px);
 }
 .footer-buy.close{
     transform: translate(0,0px);

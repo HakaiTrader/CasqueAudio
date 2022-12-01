@@ -1,0 +1,104 @@
+@media screen and (max-width: 580px) {
+   
+    .description, .prix{
+        width: 365px;
+    }
+    .description-texte{
+
+        flex-wrap: wrap;
+    }
+    .description-texte p{
+
+        width: 280px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .description-prix{
+
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    .description-prix2{
+
+        text-align: center;
+    }
+    .surligne-rouge{
+    }
+    .google{
+
+        justify-content: center;
+    }
+    .livraison{
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+    }
+    .livraison1,
+    .retrait{
+        
+        display: flex;
+        width: 220px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        font-size: 20px;
+        }
+    .prix{
+        height: auto;
+    }
+    .livraison1{
+
+        border: none;
+    }
+    .retrait{
+
+        margin:0;
+    }
+    .illimite{
+        width: auto;
+    }
+    .container{
+
+        height: auto;
+    }
+    .assurance-offre{
+        width: 300px;
+    }
+    .section5 ul{
+         margin: 0;
+    }
+    .image-description{
+        row-gap: 0px;
+    }
+    .image img{
+
+        width: 300px;
+        height: 400px;
+    }
+    .footer-buy button {
+
+        width: 280px;
+        margin-top: 15px;
+    }
+    .prix-footer >*{
+        font-size: 14px;
+    }
+    .prix-footer span.red{
+
+        font-size: 23px;
+    }
+    .footer-buy{
+        transform: translate(0,180px);
+        flex-direction: column;
+    }
+    .footer-buy >*{
+
+        margin-top: 10px;
+    }
+    .footer-buy button{
+        width: 250px;
+    }
+}
