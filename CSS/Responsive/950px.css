@@ -1,0 +1,32 @@
+@media screen and (max-width: 956px) {
+    
+    .modal-panier{
+        margin-top: 15px;
+    }
+    section .container{
+        flex-wrap: wrap;
+    }
+    section .image{
+        display: flex;
+        justify-content: center;
+    }
+    .image img {
+        width: 550px;
+        height: 600px;
+    }
+    .image-description {
+
+        margin-bottom: 50px;
+        row-gap: 100px;
+    }
+
+    .image-selection{
+        align-self: center;
+        justify-self: flex-end;
+        margin: 80px 0 0 0;
+    }
+    .casque1,
+    .casque2{
+        transform: translate(0);
+    }
+}

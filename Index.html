@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/CSS/Responsive/950px.css">
+        <title>Casque Audio</title>
+    </head>
+    <body>
+    <header>
+        <div class="panier-achat">
+            <h3>Casque audio <span class="bold "> BEATS STUDIO3 SANS FIL BLANC AVEC REDUCTION DE BRUIT </span></h1>
+            <div class="panier">
+                <img src="/Images/panier-removebg-preview.png" height="35px" width="35px" alt="">
+                <p class="panier-number fz12 bold">1</p>
+            </div>
+            <div class="modal-panier">
+                <button class="commander bold">Commander</button>
+                <button class="retirer bold">Retirer un</button>
+            </div>
+         </div>
+    </header>
+<!-------------------FENETRES MODALS----------------------->
+    <div class="modal modal-X4">
+        <div class="container-modal-X4">
+            <div class="title-modal-X4">
+                <i class="fa-solid fa-xmark quit-modal"></i>
+                <img src="/Images/3X4XCard.png" alt=""><h2 class="bold fz15">Payer à votre rythme</h2>
+            </div>
+            <div class="centre-modal-X4">
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="bold fz15">Payez en</td>
+                            <td><img src="/Images/3X.png" alt="X3"></td>
+                            <td><img src="/Images/X4.png" alt="X4"></td>
+                        </tr>
+                    </thead>
+                    <tbody class="fz14">
+                        <tr>
+                            <td>Versement à la commande</td>
+                            <td>99.99 €</td>
+                            <td>74.99 €</td>
+                        </tr>
+                        <tr>
+                            <td class="bug-td">1ère mensualité</td>
+                            <td class="bug-td">104,34 € <br><span class="fz11">Dont <span class="bold">4.35 €</span> de financement</span></td>
+                            <td class="bug-td">81.59 € <br><span class="fz11">Dont <span class="bold">4.35 €</span> de financement</span></td>
+                        </tr>
+                        <tr>
+                            <td>2ème mensualité</td>
+                            <td>74.99 €</td>
+                            <td>75.02 €</td>
+                        </tr>
+                        <tr>
+                            <td>3ème mensualité</td>
+                            <td>99.99€</td>
+                            <td>74.99€</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-modal-X4 fz14">
+                <p>Les mensualités seront prélevées directement sur votre 
+                    carte bancaire; La première à 28 jours de la commande, 
+                    la seconde à 60 jours et la troisième à 90 jours 
+                    (pour les paiements en 4x)</p> <br>
+                <p class="bold fz15"> pour régéler en plusieurs fois, c'est simple et sécurisé</p>
+                <ol> <br>
+                    <li>Ajoutez votre produit au panier</li>
+                    <li> Valider votre commande</li>
+                    <li>Choisissez le mode de paiement en 3 ou 4 fois</li>
+                    <div class="img-card">
+                        <img src="/Images/paiementCard.png" width='356px' height="192px" alt="card">
+                    </div>
+
+                    <li>Complétez le formulaire chez notre partenaire Crédit Agricole - Consumer Finance
+                        Vous n'avez pas de documents à fournir</li>
+                    <li>
+                        Recevez une confirmation immédiatement !
+                    </li>
+                </ol>
+            </div>              
+        </div>
+    </div>
+    <div class=" modal modal-google">
+        <div class="modal-google-container">
+            <div class="modal-google-title">
+                <img src="/Images/googleSpeak.png" height="22px" width="22px" alt="">
+                <h3>Google Nest Hub V2 à 29,99€*</h3>
+                <i class="fa-solid fa-xmark quit-modal"></i>
+            </div>
+            <div class="modal-google-texte">
+                <p class="fz13">
+                    *Profitez de l'Enceinte intelligente Google Nest Hub
+                     v2 à 29.99€ au lieu de 99,99€ dès 100€ d'achat sur 
+                     tous les rayons. La remise s'effectuera au panier 
+                     dès que le montant du panier aura atteint 100€ et 
+                     que vous aurez ajouté l'Enceinte intelligente Google Nest Hub V2 <br><br>
+                    Offre valable sur les produits en stock, vendus 
+                    et expédiés par ****** (Hors Marketplace) dans 
+                    la limite des stocks disponibles.
+                    Cumulable avec les offres en cours.
+                    <br><br> <span class="souligne fz11">En savoir plus</span> 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-service">   
+        <div class="modal-service-container">
+            <div class="modal-service-title">
+                <i class="fa-solid fa-xmark quit-modal"></i>
+                <h3>
+                    <img src="/Images/Illimite.svg" width="52px" height="24px" alt="">
+                </h3>
+            </div>
+            <div class="modal-service-text">
+                <p class="fz14">
+                    <span class="bold"> Prolongez la durée de vie de ce produit 
+                    et de vos autres appareils</span> <br><br>
+                    ****, c’est l’abonnement pour entretenir 
+                    et réparer vos appareils en illimité : quel que 
+                    soit le nombre de pannes et qu’ils viennent de
+                     chez **** ou d’ailleurs(1).
+                </p>
+            </div>
+            <div class="modal-service-abo">
+                <div class="tarif-abo">
+                    <p> 
+                        <span class="fz11">A partir de <br></span>
+                        <span class="bold">14,99 € TTC /mois</span> 
+                        <span class="fz11">Engagement 12 mois</span>
+                    </p>
+                </div>
+                <button>Je découvre</button>
+            </div>
+            <div class="privileges">
+                <div class="privilege-box">
+                    <img src="/Images/entretien.svg" alt="">
+                    <p class="fz10">
+                        Réparation en illimité de vos appareils achetés
+                         chez quelqu'un ou ailleurs <sup>(2)</sup>
+                    </p>
+                </div>
+                <div class="privilege-box">
+                    <img src="/Images/remboursement.svg" alt="">
+                    <p class="fz10">
+                        Remboursement au prix d’achat si votre 
+                        appareil **** ou **** n’est pas réparé(3)
+                    </p>
+                </div>
+                <div class="privilege-box">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <p class="fz10">Livraison gratuite et illimitée sur le créneau de votre choix <sup>(4)</sup></p>
+                </div>
+                <div class="privilege-box">
+                    <img src="/Images/chrono.svg" alt="">
+                    <p class="fz10">Assistance prioritaire avec intervention à domicile 
+                        pour vos produits volumineux <sup>(5)</sup></p>
+                </div>
+                <div class="privilege-box">
+                    <img src="/Images/entretien (1).svg" width="65px" height="45px" alt="">
+                    <p class="fz10">
+                        Entretien de vos appareils avec contrôle annuel 
+                        en visio et conseils personnalisés
+                    </p>
+                </div>
+                <div class="privilege-box">
+                    <img src="/Images/picto-offre-speciale.svg" height="40px" width="40px" alt="">
+                    <p class="fz11">
+                        Remises exclusives toute l’année
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-casse">
+        <div class="modal-casse-container">
+            <div class="modal-casse-title">
+                <h4 class="bold modal-casse-title">Assurance multimédia casse 1 an</h4>
+                <i class="fa-solid fa-xmark quit-modal"></i>
+            </div>
+            <div class="modal-casse-list">
+                <ul class="bold fz13">
+                    <li>Votre appareil garantie toutes causes contre les dommages et l'oxydation accidentels</li>
+                    <li>Votre appareil réparé ou remboursé</li>
+                    <li>Remplacement et réparation : réception de votre appareil à domicile</li>
+                    <li>Souscription rapide et simple au moment de l’achat de l’appareil, et délai de rétractation de 30 jours</li>
+                </ul>
+            </div>
+            <a href="#"class="fz12">Voir conditions</a>
+        </div>
+    </div>
+    <div class="intersection-footer">
+    </div>
+<!--------------------------------------------------------->
+   <section class="section1">
+    <div class="container">
+        <div class="image-description">
+            <div class="image">
+                <img src="/Images/Casque1.png" alt="Casque beat studio3">
+            </div>
+            <div class="image-selection">
+                <div class="slide casque1"></div>
+                <div class="slide casque2"></div>
+            </div>
+        </div>
+        <div class="prix">
+            <div class="description">
+                <div class="description-prix">
+                    <div class="description-prix2">
+                        <p class="surligne-rouge">BON PLAN  - 25%</p>
+                        <p class="barre">399,99 €*</p>
+                        <p class="prix-rouge bold">299,99 €</p>
+                        <p class="eco">Dont 0,50 € d'éco-part. DEEE</p>
+                        <p class="eco bold">Vous économisez : <span class="surligne-jaune">100 €</span></p>
+                    </div>
+                    <div class="payer-x4">
+                       <p class="payer"> Payez en </p><img src="/Images/X4.png" alt="X4" height="16px" width="24px">
+                        <img src="/Images/info.png"  class="open-modal"alt="Infos" height="15px" width="15px">
+                        <p class="bold">74,99 €</p>
+                        <p class="small financement" >Coût de financement :</p>
+                        <p class="small bold financement">6,60 €</p>
+                    </div>
+                </div>
+                <div class="google">
+                    <img src="/Images/googleSpeak.png" height="22px" width="22px" alt="">
+                    <h2>Google Nest Hub V2 à 29,99€*</h2>
+                    <img src="/Images/info.png" class="open-modal"height="15px" width="15px" alt="Infos2">
+                </div>
+                <div class="livraison">
+                    <div class="livraison1">
+                       <p class="bold fz12">Livraison gratuite</p>
+                       <p class="fz12 green bold mrb-10">Livré à partir du 26/11</p>
+                       <p class="bold fz12">Livraison à partir de 4,99 €</p>
+                       <p class="bold fz12 green mrb-10">Livré dès demain</p>
+
+                       <p class="souligne small">Voir toutes les options de livraison</p>
+                        <button class="ajouter-panier bold"><i class="fa-solid fa-basket-shopping"></i>Ajouter au panier</button>
+                    </div>
+                    <div class="retrait">
+                        <p class="fz12 bold">Retrait gratuit</p>
+                        <p class="fz12 green bold mrb-10">En retrait dans + 50 magasins</p>
+                        <p class="fz12 souligne">Voir les magasins</p>
+                        <button class="retirer bold"><i class="fa-solid fa-shop"></i>Retirer en magasin</button>
+                    </div>
+                </div>
+                <div class="illimite">
+                    <img src="/Images/Illimite.svg" alt="Illimité" class="imgillimite">
+                    <p class="fz13 bold">Ce produit est entretenu et réparé en illimité avec **** <img class="open-modal" src="/Images/info.png" alt="Infos3"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="section2">
+    <div class="point-fort">
+        <h3 class="bold fz14">Les points fort</h3>
+        <ul>
+            <li>Casque arceau circum-aural</li>
+            <li>Arceau pliable - Microphone intégré</li>
+            <li>Bluetooth de classe 1 avec la technologie Pure ANC</li>
+            <li>Batterie rechargeable - Autonomie 22 heures</li>
+        </ul>
+        <p class="souligne fz13">Voir toutes les caractéristiques</p>
+    </div>
+    <div class="info-logos">
+        <div class="magasin">
+            <img src="/Images/darty_shop.svg" alt="">
+            <p>retrait gratuit en  magasin</p>
+        </div>
+        <div class="parapluie">
+            <img src="/Images/darty_umbrella.svg" alt="">
+            <p>Garantie légale 2 ans</p>
+        </div>
+        <div class="direction">
+            <img src="/Images/darty_exchange.svg" alt="">
+            <p>Retour gratuit en magasin</p>
+        </div>
+        <div class="reprise">
+            <img src="/Images/darty_assurance.svg" alt="">
+            <p>Reprise de votre ancian matériel</p>
+        </div>
+    </div>
+   </section>
+   <section class="section3">
+    <div class="assurance-offre">
+        <div class="assurances">
+            <div class="assurance-umbrella">
+                <img src="/Images/darty_umbrella.svg" alt="assurances" height="40px" width="35px">
+                <p>Vos services tranquillité</p>
+            </div>      
+            <div class="assurance1">
+                <input type="checkbox" id="check1">
+                <p class="fz12 bold"> Assurance Multimédia casse et vol 1 an</p>
+                <img src="/Images/info.png" height="15px" width="15px" alt="Infos4" class="open-modal">
+                <p class="fz14 bold">29,99 €</p>
+            </div>
+            <div class="assurance2">    
+                <input type="checkbox" name="assurance" id="check2">
+                <p class="fz12 bold"> Assurance Multimédia casse et vol 1 an</p>
+                <img src="/Images/info.png" height="15px" width="15px" alt="Infos4" class="open-modal">
+                <p class="fz14 bold">39,99 €</p>
+            </div>
+        </div>
+        <div class="offre-partenaire">
+            <div class="offre-ticket">
+                <i class="fa-solid fa-ticket"></i> <h3 class="fz15">Offre partenaire</h3>
+            </div>
+            <p class="fz12"> Vendu et expédié par <span class="bold ocstore">OCstore</span></p>
+            <p class="fz13">Etat: <span class="bold fz13">Neuf</span></p>
+        </div>
+   </section>
+   <div class="description-title">
+       <h1>DESCRIPTION</h1>
+   </div>
+   <section class="section4">
+        <div class="description-texte">
+            <div class="description-gauche">
+                <p class="fz13"> <span class="bold">écouvrez le nouveau casque Beats Studio3 comprenant la nouvelle technologie
+                    Pure ANC vous permettant de vous concentrer uniquement sur la musique!</span>
+                    <br><br>
+                    <span class="bold">Le Beats Studio3, élégant & confortable</span><br>
+                    Habillé d’un design élégant, le Beats Studio3 est un casque circum aural
+                    souple comportant des coussinets confortables pour une utilisation des 
+                    plus agréables pendant une longue durée, s’ajoutant à cela une batterie 
+                    rechargeable d’une grande autonomie ainsi qu’un dispositif RemoteTalk ™.
+                    <br><br>
+                    <span class="bold">Connectivité</span><br>
+                    Dotée d’une meilleure connectivité avec un 
+                    Bluetooth de classe 1, le Beats Studio3 
+                    intègre une puce Apple W1 offrant une augmentation 
+                    de la portée, le tout en réduisant au maximum les 
+                    pertes de connexion que peut subir un casque sans fil. 
+                    Pouvant s’appairer sur un iPhone, iPad et/ou un iPod 
+                    en tout simplicité, bénéficiez d’une écoute sans limite</p>
+            </div>
+            <div class="description-droite">
+                <p class="fz13">offrant jusqu’à 22 heures d’autonomie. La désactivation de la fonctionnalité Pure ANC en mode économie d'énergie offre jusqu'à 40 heures de musique d'une qualité audio sans compromis. 
+                Un déplacement imprévu ? Une séance de sport improvisé ? Le système Fast Fuel vous permet d’acquérir 3h d’écoute en 10 minutes de charge.
+                Détenteur d’un appareil Apple sous iOS 10 ou iOS 11 ? Avec le Beats Studio 3 vous pourrez passer de façon instantanée d’un appareil à un autre dès lors que ce dernier soit enregistré sur iCloud. Grâce à Siri, 
+                vous pourrez prendre vos appels et contrôler votre musique avec facilité.<br><br>
+                <span class="bold"> Technologie Pure ANC </span><br>
+                Grâce à son dispositif adaptatif
+                d'élimination du bruit ANC (pure annulation adaptative du bruit), 
+                vous pourrez profiter de vos trajets quotidiens sans aucuns bruits
+                déconcertants autour de vous.  Avec le Beats Studio3 vous embarquerez 
+                dans une nouvelle expérience sonore.</p>
+            </div>
+        </div>
+   </section>
+   <section class="section5">
+    <h1>CARACTERISTIQUES</h1>
+    <div class="tableau">
+        <table class="fz13">
+            <tbody>
+                <tr class="odd">
+                    <th scope="row">Réduction de bruit</th>
+                    <td>
+                        <ul>
+                        <li>Oui</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                <th scope="row">Accessoires fournis</th>
+                <td>
+                <ul>
+                <li>Etui de transport, câble RemoteTalk, câble de charge USB, guide de démarrage, carte de garantie.</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Appareil connecté</th>
+                <td>
+                <ul class="characteristics">
+                <li class="">Oui</li>
+                </ul>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">Autonomie de fonctionnement</th>
+                <td>
+                <ul>
+                <li>1320 min</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Communication sans fil</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Bluetooth</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="">
+                <th scope="row">Fonctionnalités Casque</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Contrôle iPhone et GSM</li>
+                <li class="">Contrôle de volume</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Type de casque / écouteurs</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Arceau Circum-aural</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="">
+                <th scope="row">Assistant vocal compatible</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Siri</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Caractéristiques complémentaires</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Isolation phonique<br> Télécommande / Micro: Apple<br> Type: Casque arceau Bluetooth</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="">
+                <th scope="row">Type connecteur sortie audio</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Jack 3.5mm</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Mode de connexion</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Sans fil</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="">
+                <th scope="row">Choix durable</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Oui</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Origine de fabrication</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Fabriqué hors Europe</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="">
+                <th scope="row">Disponibilité des pièces détachées</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">Non disponible</li>
+                </ul>
+                </td>
+                </tr>
+                <tr class="odd">
+                <th scope="row">Code</th>
+                <td class="font-2-b">
+                <ul class="characteristics">
+                <li class="">4359968</li>
+                </ul>
+                </td>
+                </tr>
+                </tbody>
+        </table>
+    </div>
+   </section>
+
+   <footer class="footer-buy">
+    <div class="img-footer">
+        <img src="/Images/Casque1.png" width="30px" height="44px" alt="">
+    </div>
+    <div class="text-footer">
+        <p class="fz12">
+            Casque audio <br><span class="bold fz12">Beats STUDIO3 SANS FIL BLANC AVEC REDUCTION DE BRUIT</span>
+        </p>
+    </div>
+    <div class="prix-footer">
+        <p class="fz12">
+            399,99€ <span class="bold fz10">-25%</span> <br>
+           <span class="bold fz15 red">299,99 €</span>
+        </p>
+    </div>
+    <button class="ajouter-panier bold"><i class="fa-solid fa-basket-shopping"></i> Ajouter au panier</button>
+    <button class="retirer bold"> <i class="fa-solid fa-shop"></i>Retirer en magasin</button>
+   </footer>
+    
+
+<script src="/JavaScript/Index.js"></script>
+</body>
+</html>
