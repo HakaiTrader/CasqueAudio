@@ -23,8 +23,6 @@
 
         text-align: center;
     }
-    .surligne-rouge{
-    }
     .google{
 
         justify-content: center;
@@ -91,7 +89,7 @@
         font-size: 23px;
     }
     .footer-buy{
-        transform: translate(0,180px);
+        transform: translate(0,270px);
         flex-direction: column;
     }
     .footer-buy >*{
