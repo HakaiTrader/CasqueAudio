@@ -169,7 +169,7 @@ section .container{
     
     box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.274);
     scale: 1.05;
-    border: 1px solid grey;
+    border: 10px solid rgb(17, 9, 9);
 }
 .image {
     
