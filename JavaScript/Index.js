@@ -8,10 +8,10 @@ imageSelection.forEach(el => el.addEventListener('click',pictureChoice))
 
 function pictureChoice(e) {
     if (e.target === imageSelection[0]) {
-        image.src = "./Images/Casque1.png"
+        image.src = "../Images/Casque1.png"
     }
     else if (e.target === imageSelection[1]) {
-        image.src = "./Images/Casque2.png"
+        image.src = "../Images/Casque2.png"
     }
 }
 ////////////////////////////////////////
