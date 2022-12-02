@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -147,11 +147,11 @@ section .container{
     width: 350px;
 }
 .Casque1{
-    background-image: url(./../Images/Casque1.png);
+    background-image: url(./Images/Casque1.png);
 }
 
 .Casque2{
-    background-image: url(./../Images/Casque2.png);
+    background-image: url(./Images/Casque2.png);
     
 }
 .Casque1,
