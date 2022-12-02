@@ -134,7 +134,7 @@ function removeArticle() {
     if (numberPanier === 0) {
         nombrePanier.style.display ="none";
     } else if (numberPanier <= 0) {
-        alert('Votre panier est déjà vide')
+        alert('Votre panier est vide')
         numberPanier++
     }
 }
