@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 *{
 
     padding: 0; margin: 0;
@@ -8,6 +11,7 @@
 body{
 
     position: relative;
+    margin-top: 20px;
 }
 button{
 
@@ -52,6 +56,10 @@ header .panier-achat{
     margin: 15px 0;
     font-size: 20px;
 }
+header h3{
+    text-align: center;
+    font-size: 25px;
+}
 .panier-achat img {
 
     margin-top: 15px;
@@ -65,12 +73,12 @@ header .panier-achat{
     justify-content: center;
     align-items: center;
     position: absolute;
-    transform: translate(18px,-23px);
+    transform: translate(25px,-40px);
     color: white;
     border-radius: 50%;
     background-color: rgba(255, 0, 0, 0.893);
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     z-index: 100;
 }
 .modal-panier{
@@ -81,7 +89,7 @@ header .panier-achat{
     position: absolute;
     width: 250px;
     height: 70px;
-    top: 80px;
+    top: 90px;
     box-shadow: 0px 0px 10px 0px grey;
     background: white;
     border-radius: 10px;
