@@ -163,6 +163,7 @@ section .container{
     background-position: 50%, 50%;
     cursor: pointer;
     transform: translateX(-40%);
+    border: 1px solid grey;
 }
 .Casque1:hover,
 .Casque2:hover{
