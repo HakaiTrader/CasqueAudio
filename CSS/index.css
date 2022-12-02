@@ -169,6 +169,7 @@ section .container{
     
     box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.274);
     scale: 1.05;
+}
 .image {
     
     width: 450px;
